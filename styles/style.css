@@ -1,0 +1,58 @@
+/* global */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* common style  */
+.display-flex{
+    display: flex;
+}
+body{
+    background-color: black;
+}
+
+/* content style  */
+.nav-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo{
+    color: #E6533C;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.nav-item li{
+    list-style: none;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item{
+    width: 465px;   
+}
+.item-container{
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 38px;
+    gap: 47px;
+    padding: 12px 18px 12px 4px;
+}
+.item-container a{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.home{
+    width: 92px;
+    border-radius: 46px;
+    background-color: #E6533C;
+    padding: 8px 20px;
+}
